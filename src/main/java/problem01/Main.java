@@ -21,6 +21,14 @@ public class Main {
 	}
 	
 	public static int countClap(int number) {
-		return 0;
+		
+		//숫자는 나옴 글이 안나온다.
+		if(number%3 == 0) {
+			number+=3;
+		} else {
+			number = 0;
+		}
+
+		return number;
 	}
 }
