@@ -1,6 +1,5 @@
 package problem02;
 
-import com.sun.org.apache.xpath.internal.functions.Function;
 
 public class SmartPhone extends MusicPhone {
 	

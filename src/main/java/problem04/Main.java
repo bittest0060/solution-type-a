@@ -5,34 +5,32 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		
-		while(true) {
-		
-		Scanner sc = new Scanner(System.in);
-		int[] 	arr;
-		int 	ranNum 	= (int) Math.random();
-		
-		for (int i = 0; true; i++) {
-			arr[i] = ranNum;
-		}
-		
-
-		
 		int 	count 	= 0;
 		int		S		= 0,
 				B		= 0,
 				O		= 0;
+		int[] 	arr 	= null;
+		Scanner sc 		 = new Scanner(System.in);
+		int 	inputNum = Integer.parseInt(sc.nextLine());
+		int 	ranNum   = (int) Math.random();
 		
-		count++;
-		int inputNum = Integer.parseInt(sc.nextLine());
-		if()
+		while(true) {
+		for (int i = 0; true; i++) {
+			arr[i] = ranNum;
 			
-		System.out.println("입력" + count);
-		
-		if(inputNum == ranNum) {
-			S++;
+			for(int j = 0; true; j++) {
+				if(inputNum == ranNum && arr[i] == arr[j]) {
+					++S;
+					System.out.println("스타라이크");
+				}
+				else if(inputNum != ranNum) {
+					++B;
+					System.out.println("볼");
+				}else if(inputNum)
+			}
+			
 		}
-		else if()
-		
+	
 		
 		}
 	}

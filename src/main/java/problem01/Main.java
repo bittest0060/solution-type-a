@@ -22,7 +22,7 @@ public class Main {
 	
 	public static int countClap(int number) {
 		
-		//숫자는 나옴 글이 안나온다.
+		
 		if(number%3 == 0) {
 			number+=3;
 		} else {
