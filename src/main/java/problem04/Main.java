@@ -26,7 +26,8 @@ public class Main {
 				else if(inputNum != ranNum) {
 					++B;
 					System.out.println("볼");
-				}else if(inputNum)
+				}else if(inputNum == null)
+					++O;
 			}
 			
 		}
